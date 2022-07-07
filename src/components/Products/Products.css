@@ -1,0 +1,44 @@
+.productsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    margin: 2rem 2rem 0 2rem;
+}
+
+.productImage{
+    border: 0.01px solid rgb(178, 178, 178);
+}
+
+.productImage:hover{
+    cursor: pointer;
+}
+
+.name{
+    font-size: small;
+}
+
+.card{
+    margin: 2rem 0rem 0 0rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.button{
+    padding: 1rem;
+    background-color: #F4AE1A;
+    color: black;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
